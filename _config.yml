@@ -2,60 +2,62 @@ layout: sidebar
 style: light
 
 plugins:
-  - jekyll-octicons
-  - jekyll-github-metadata
-  - jemoji
+    - jekyll-octicons
+    - jekyll-github-metadata
+    - jemoji
 
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
+    -   scope:
+            path: "" # an empty string here means all files in the project
+            type: "posts"
+        values:
+            layout: "post"
 
 projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    forks: true
-    projects:
-    # - repo-name
+    sort_by: pushed
+    # sort_by options:
+    #   - pushed
+    #   - stars
+    limit: 9
+    exclude:
+        forks: true
+        projects:
+        # - repo-name
 
- social_media:
-   linkedin: shapiy
-   twitter: shapiydev
+social_media:
+    linkedin: shapiy
+    twitter: shapiydev
 
 topics:
-  - name: Clojure
-    web_url: https://github.com/topics/clojure
-    image_url: https://raw.githubusercontent.com/github/explore/a4f50275e9736bcd9f255084c4908627f5dd9069/topics/clojure/clojure.png
-  - name: Java
-    web_url: https://github.com/topics/java
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/java/java.png
-  - name: Python
-    web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/a4f50275e9736bcd9f255084c4908627f5dd9069/topics/clojure/clojure.png
-  - name: XML
-    web_url: https://github.com/topics/xml
-    image_url: https://image.flaticon.com/icons/svg/23/23792.svg
-  - name: Big Data
-    web_url: https://github.com/topics/bigdata
-  - name: DevOps
-    web_url: https://github.com/topics/devops
-  - name: Distributed Systems
-    web_url: https://github.com/topics/distributed-systems
-  - name: Monitoring
-    web_url: https://github.com/topics/monitoring
-  - name: Publishing
-    web_url: https://github.com/topics/publishing
-  - name: REST API
-    web_url: https://github.com/topics/rest-api
-  - name: Amazon Web Services
-    web_url: https://github.com/topics/aws
-    image_url: https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png
+    -   name: Clojure
+        web_url: https://github.com/topics/clojure
+        image_url: https://raw.githubusercontent.com/github/explore/a4f50275e9736bcd9f255084c4908627f5dd9069/topics/clojure/clojure.png
+    -   name: Java
+        web_url: https://github.com/topics/java
+        image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/java/java.png
+    -   name: Python
+        web_url: https://github.com/topics/python
+        image_url: https://raw.githubusercontent.com/github/explore/a4f50275e9736bcd9f255084c4908627f5dd9069/topics/clojure/clojure.png
+    -   name: XML
+        web_url: https://github.com/topics/xml
+        image_url: https://image.flaticon.com/icons/svg/23/23792.svg
+    -   name: Big Data
+        web_url: https://github.com/topics/bigdata
+    -   name: DevOps
+        web_url: https://github.com/topics/devops
+    -   name: Distributed Systems
+        web_url: https://github.com/topics/distributed-systems
+    -   name: Linux
+        web_url: https://github.com/topics/linux
+        image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/linux/linux.png
+    -   name: Monitoring
+        web_url: https://github.com/topics/monitoring
+    -   name: Publishing
+        web_url: https://github.com/topics/publishing
+    -   name: REST API
+        web_url: https://github.com/topics/rest-api
+    -   name: Amazon Web Services
+        web_url: https://github.com/topics/aws
+        image_url: https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png
