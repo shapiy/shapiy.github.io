@@ -53,9 +53,9 @@ taking ground ideas from XSLT. The upcoming articles will expand on the topic.
 
 What is XSLT? Basically:
 
-1) The source file
-2) The stylesheet
-3) The result file
+1. The source file
+1. The stylesheet
+1. The result file
 
 The central building blocks of stylesheets are `xsl:template` instructions.
 They tell how nodes corresponding to certain XPaths must be converted.
