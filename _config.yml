@@ -1,9 +1,11 @@
+remote_theme: niklasbuschmann/contrast@v1.0
 layout: sidebar
 style: light
 
 plugins:
     - jekyll-octicons
     - jekyll-github-metadata
+    - jekyll-remote-theme
     - jemoji
 
 permalink: /:year/:month/:day/:title/
