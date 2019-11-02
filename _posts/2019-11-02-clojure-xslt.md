@@ -1,6 +1,6 @@
 ---
 title: "Implementing an XSLT-like transformation in bare Clojure"
-published: true
+published: false
 categories: [blog, software engineering]
 tags: [clojure, xslt, xml, poc]
 ---
