@@ -30,6 +30,7 @@ projects:
 social_media:
     linkedin: shapiy
     twitter: shapiydev
+    blog: https://shapiy.github.io/blog/
 
 topics:
     -   name: Clojure
