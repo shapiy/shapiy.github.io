@@ -206,7 +206,7 @@ XML string.
       indent-str))
 ```
 
-The source code: http://bit.ly/328u6Fx
+The source code: [http://bit.ly/328u6Fx](http://bit.ly/328u6Fx)
 
 Notice we don't have any templates yet. No notion of stylesheet either. The declarative
 part is mixed with imperative. So, let us fix it and do the `http` to `https`
@@ -248,7 +248,7 @@ The only thing left is to implement the attribute mapping function:
     attrs))
 ```
 
-The source code: http://bit.ly/2JHQKOQ
+The source code: [http://bit.ly/2JHQKOQ](http://bit.ly/2JHQKOQ)
 
 # Conclusions
 
