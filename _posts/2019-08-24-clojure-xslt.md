@@ -5,7 +5,7 @@ categories: [blog, software engineering]
 tags: [clojure, xslt, xml, poc]
 ---
 
-![Ronchamp](/assets/Ronchamp.jpg)
+![Ronchamp](/assets/Ronchamp.jpg){width="500px"}
 
 Chapelle Notre-Dame-du-Haut de Ronchamp is one of the greatest buildings 
 of the 20th century. Being architecturally complex, it remains visually simple.
