@@ -1,5 +1,5 @@
 ---
-title: "Implementing an XSLT-like transformation in bare Clojure"
+title: "Implementing XSLT-like transformation in bare Clojure"
 published: false
 categories: [blog, software engineering]
 tags: [clojure, xslt, xml, poc]
