@@ -25,7 +25,8 @@ projects:
     exclude:
         forks: true
         projects:
-        # - repo-name
+         - urlmatch
+         - goodreads
 
 social_media:
     linkedin: shapiy
